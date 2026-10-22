@@ -13,7 +13,7 @@ public class Defenseur : Joueur
         set
         {
             if (value < 0)
-                throw new ArgumentOutOfRangeException(nameof(value), "Le nombre de tacles ne peut pas être négatif.");
+                throw new ArgumentOutOfRangeException(nameof(value), value, "Le nombre de tacles ne peut pas être négatif.");
             _tacles = value;
         }
     }

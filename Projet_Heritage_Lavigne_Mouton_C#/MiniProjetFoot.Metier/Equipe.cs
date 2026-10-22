@@ -15,7 +15,7 @@ public class Equipe
         set
         {
             if (value <= 0)
-                throw new ArgumentOutOfRangeException(nameof(value), "L’identifiant de l’équipe doit être positif.");
+                throw new ArgumentOutOfRangeException(nameof(value), value, "L’identifiant de l’équipe doit être positif.");
             _id = value;
         }
     }
@@ -26,7 +26,7 @@ public class Equipe
         set
         {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("Le nom de l’équipe ne peut pas être vide.");
+                throw new ArgumentException("Le nom de l’équipe ne peut pas être vide.", nameof(value));
             _nom = value.Trim();
         }
     }
@@ -55,7 +55,7 @@ public class Equipe
     {
         ArgumentNullException.ThrowIfNull(adversaire);
         if (adversaire.Id == Id)
-            throw new ArgumentException("Une équipe ne peut pas jouer contre elle-même.", nameof(adversaire));
+            throw new InvalidOperationException("Une équipe ne peut pas jouer contre elle-même.");
 
         foreach (Joueur joueur in Joueurs)
             joueur.Jouer();

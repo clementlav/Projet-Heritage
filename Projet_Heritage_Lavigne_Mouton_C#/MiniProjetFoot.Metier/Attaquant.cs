@@ -13,7 +13,7 @@ public class Attaquant : Joueur
         set
         {
             if (value < 0)
-                throw new ArgumentOutOfRangeException(nameof(value), "Le nombre de buts ne peut pas être négatif.");
+                throw new ArgumentOutOfRangeException(nameof(value), value, "Le nombre de buts ne peut pas être négatif.");
             _buts = value;
         }
     }
