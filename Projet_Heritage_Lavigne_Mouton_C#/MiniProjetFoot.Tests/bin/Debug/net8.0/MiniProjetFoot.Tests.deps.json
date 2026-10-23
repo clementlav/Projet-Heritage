@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MiniProjetFoot.Tests/1.0.0": {
+        "dependencies": {
+          "MiniProjetFoot.Metier": "1.0.0"
+        },
+        "runtime": {
+          "MiniProjetFoot.Tests.dll": {}
+        }
+      },
+      "MiniProjetFoot.Metier/1.0.0": {
+        "runtime": {
+          "MiniProjetFoot.Metier.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniProjetFoot.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniProjetFoot.Metier/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

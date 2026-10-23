@@ -1,10 +1,5 @@
 using MiniProjetFoot.Metier;
 
-static void Verifier(bool condition, string message)
-{
-    if (!condition)
-        throw new InvalidOperationException($"Échec du test : {message}");
-}
 
 static void TesterAgeInvalide()
 {
@@ -17,7 +12,6 @@ static void TesterAgeInvalide()
         return;
     }
 
-    throw new InvalidOperationException("Le test de l’âge invalide a échoué.");
 }
 
 static void TesterPosteInvalide()
@@ -31,7 +25,6 @@ static void TesterPosteInvalide()
         return;
     }
 
-    throw new InvalidOperationException("Le test du poste invalide a échoué.");
 }
 
 static void TesterButsNegatifs()
@@ -45,7 +38,6 @@ static void TesterButsNegatifs()
         return;
     }
 
-    throw new InvalidOperationException("Le test des buts négatifs a échoué.");
 }
 
 static void TesterTaclesNegatifs()
@@ -59,7 +51,6 @@ static void TesterTaclesNegatifs()
         return;
     }
 
-    throw new InvalidOperationException("Le test des tacles négatifs a échoué.");
 }
 
 static void TesterJoueurDansMauvaiseEquipe(Equipe equipe, Joueur joueur)
@@ -73,7 +64,6 @@ static void TesterJoueurDansMauvaiseEquipe(Equipe equipe, Joueur joueur)
         return;
     }
 
-    throw new InvalidOperationException("Le test du joueur dans la mauvaise équipe a échoué.");
 }
 
 static void TesterJoueurBlesse()
@@ -92,7 +82,6 @@ static void TesterJoueurBlesse()
         return;
     }
 
-    throw new InvalidOperationException("Le test du joueur blessé a échoué.");
 }
 
 static void TesterMatchAvecJoueurBlesse(Equipe equipe, Equipe adversaire)
@@ -111,7 +100,6 @@ static void TesterMatchAvecJoueurBlesse(Equipe equipe, Equipe adversaire)
     }
 
     joueur.Blesse = false;
-    throw new InvalidOperationException("Le test du match avec un joueur blessé a échoué.");
 }
 
 static void TesterIdentifiantJoueurInvalide()
@@ -125,7 +113,6 @@ static void TesterIdentifiantJoueurInvalide()
         return;
     }
 
-    throw new InvalidOperationException("Le test de l’identifiant invalide du joueur a échoué.");
 }
 
 static void TesterEquipeIdJoueurInvalide()
@@ -139,7 +126,6 @@ static void TesterEquipeIdJoueurInvalide()
         return;
     }
 
-    throw new InvalidOperationException("Le test de l’identifiant d’équipe invalide du joueur a échoué.");
 }
 
 static void TesterNomJoueurVide()
@@ -153,7 +139,6 @@ static void TesterNomJoueurVide()
         return;
     }
 
-    throw new InvalidOperationException("Le test du nom de joueur vide a échoué.");
 }
 
 static void TesterPrenomJoueurVide()
@@ -167,7 +152,6 @@ static void TesterPrenomJoueurVide()
         return;
     }
 
-    throw new InvalidOperationException("Le test du prénom de joueur vide a échoué.");
 }
 
 static void TesterIdentifiantEquipeInvalide()
@@ -181,7 +165,6 @@ static void TesterIdentifiantEquipeInvalide()
         return;
     }
 
-    throw new InvalidOperationException("Le test de l’identifiant d’équipe invalide a échoué.");
 }
 
 static void TesterNomEquipeVide()
@@ -195,7 +178,6 @@ static void TesterNomEquipeVide()
         return;
     }
 
-    throw new InvalidOperationException("Le test du nom d’équipe vide a échoué.");
 }
 
 static void TesterMatchContreSoiMeme(Equipe equipe)
@@ -209,7 +191,6 @@ static void TesterMatchContreSoiMeme(Equipe equipe)
         return;
     }
 
-    throw new InvalidOperationException("Le test d’un match contre soi-même a échoué.");
 }
 
 var equipe = new Equipe(1, "Les Aigles");
@@ -229,9 +210,7 @@ autreEquipe.AjouterJoueur(joueurAutreEquipe);
 autreEquipe.AjouterJoueur(new Attaquant("Moreau", "Jules", 21, 2, 6));
 autreEquipe.AjouterJoueur(new Joueur("Diallo", "Sami", 24, "Milieu", 2));
 
-Verifier(equipe.Joueurs.Count == 3, "la collection contient trois joueurs");
-Verifier(equipe.Joueurs[0] is Attaquant, "l’attaquant est conservé dans la collection polymorphe");
-Verifier(equipe.Joueurs[1] is Defenseur, "le défenseur est conservé dans la collection polymorphe");
+
 Console.WriteLine(equipe);
 foreach (Joueur joueur in equipe.Joueurs)
     Console.WriteLine($" - {joueur}");

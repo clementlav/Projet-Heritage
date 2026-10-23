@@ -1,0 +1,12 @@
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\bin\Debug\net8.0\MiniProjetFoot.Metier.deps.json
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\bin\Debug\net8.0\MiniProjetFoot.Metier.dll
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\bin\Debug\net8.0\MiniProjetFoot.Metier.pdb
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\MiniProjetFoot.Metier.GeneratedMSBuildEditorConfig.editorconfig
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\MiniProjetFoot.Metier.AssemblyInfoInputs.cache
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\MiniProjetFoot.Metier.AssemblyInfo.cs
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\MiniProjetFoot.Metier.csproj.CoreCompileInputs.cache
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\MiniProjetFoot.Metier.sourcelink.json
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\MiniProjetFoot.Metier.dll
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\refint\MiniProjetFoot.Metier.dll
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\MiniProjetFoot.Metier.pdb
+C:\wamp64\www\Projet_Heritage_Lavigne_Mouton\Projet_Heritage_Lavigne_Mouton_C#\MiniProjetFoot.Metier\obj\Debug\net8.0\ref\MiniProjetFoot.Metier.dll

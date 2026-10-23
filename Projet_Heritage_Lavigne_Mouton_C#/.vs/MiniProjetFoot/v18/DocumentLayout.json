@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08B5A1C7-4C08-47B6-8E0E-61E746822AF0}|MiniProjetFoot.Tests\\MiniProjetFoot.Tests.csproj|c:\\wamp64\\www\\projet_heritage_lavigne_mouton\\projet_heritage_lavigne_mouton_c#\\miniprojetfoot.tests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08B5A1C7-4C08-47B6-8E0E-61E746822AF0}|MiniProjetFoot.Tests\\MiniProjetFoot.Tests.csproj|solutionrelative:miniprojetfoot.tests\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Tests\\Program.cs",
+              "RelativeDocumentMoniker": "MiniProjetFoot.Tests\\Program.cs",
+              "ToolTip": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Tests\\Program.cs",
+              "RelativeToolTip": "MiniProjetFoot.Tests\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T21:15:23.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

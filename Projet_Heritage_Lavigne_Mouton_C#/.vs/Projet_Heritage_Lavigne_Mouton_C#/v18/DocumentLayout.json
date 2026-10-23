@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Tests\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MiniProjetFoot.Tests\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Metier\\Defenseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MiniProjetFoot.Metier\\Defenseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Metier\\Equipe.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MiniProjetFoot.Metier\\Equipe.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
@@ -19,15 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Tests\\Program.cs",
+              "RelativeDocumentMoniker": "MiniProjetFoot.Tests\\Program.cs",
+              "ToolTip": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Tests\\Program.cs*",
+              "RelativeToolTip": "MiniProjetFoot.Tests\\Program.cs*",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAQwPsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T21:45:13.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Defenseur.cs",
+              "DocumentMoniker": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Metier\\Defenseur.cs",
+              "RelativeDocumentMoniker": "MiniProjetFoot.Metier\\Defenseur.cs",
+              "ToolTip": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Metier\\Defenseur.cs",
+              "RelativeToolTip": "MiniProjetFoot.Metier\\Defenseur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T21:44:58.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Equipe.cs",
               "DocumentMoniker": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Metier\\Equipe.cs",
               "RelativeDocumentMoniker": "MiniProjetFoot.Metier\\Equipe.cs",
               "ToolTip": "C:\\wamp64\\www\\Projet_Heritage_Lavigne_Mouton\\Projet_Heritage_Lavigne_Mouton_C#\\MiniProjetFoot.Metier\\Equipe.cs",
               "RelativeToolTip": "MiniProjetFoot.Metier\\Equipe.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T20:12:41.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-22T20:12:41.59Z"
             }
           ]
         }
