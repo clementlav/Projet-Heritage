@@ -89,7 +89,6 @@ static void TesterJoueurBlesse()
     }
     catch (InvalidOperationException)
     {
-        Console.WriteLine("Exception levée : un joueur blessé ne peut pas jouer.");
         return;
     }
 
@@ -107,13 +106,110 @@ static void TesterMatchAvecJoueurBlesse(Equipe equipe, Equipe adversaire)
     }
     catch (InvalidOperationException)
     {
-        Console.WriteLine("Exception levée : une équipe avec un joueur blessé ne peut pas jouer.");
         joueur.Blesse = false;
         return;
     }
 
     joueur.Blesse = false;
     throw new InvalidOperationException("Le test du match avec un joueur blessé a échoué.");
+}
+
+static void TesterIdentifiantJoueurInvalide()
+{
+    try
+    {
+        _ = new Joueur("Nom", "Prenom", 20, "Milieu", 1, 0);
+    }
+    catch (ArgumentException)
+    {
+        return;
+    }
+
+    throw new InvalidOperationException("Le test de l’identifiant invalide du joueur a échoué.");
+}
+
+static void TesterEquipeIdJoueurInvalide()
+{
+    try
+    {
+        _ = new Joueur("Nom", "Prenom", 20, "Milieu", 0);
+    }
+    catch (ArgumentOutOfRangeException)
+    {
+        return;
+    }
+
+    throw new InvalidOperationException("Le test de l’identifiant d’équipe invalide du joueur a échoué.");
+}
+
+static void TesterNomJoueurVide()
+{
+    try
+    {
+        _ = new Joueur("", "Prenom", 20, "Milieu", 1);
+    }
+    catch (ArgumentException)
+    {
+        return;
+    }
+
+    throw new InvalidOperationException("Le test du nom de joueur vide a échoué.");
+}
+
+static void TesterPrenomJoueurVide()
+{
+    try
+    {
+        _ = new Joueur("Nom", "", 20, "Milieu", 1);
+    }
+    catch (ArgumentException)
+    {
+        return;
+    }
+
+    throw new InvalidOperationException("Le test du prénom de joueur vide a échoué.");
+}
+
+static void TesterIdentifiantEquipeInvalide()
+{
+    try
+    {
+        _ = new Equipe(0, "Equipe");
+    }
+    catch (ArgumentOutOfRangeException)
+    {
+        return;
+    }
+
+    throw new InvalidOperationException("Le test de l’identifiant d’équipe invalide a échoué.");
+}
+
+static void TesterNomEquipeVide()
+{
+    try
+    {
+        _ = new Equipe(1, "");
+    }
+    catch (ArgumentException)
+    {
+        return;
+    }
+
+    throw new InvalidOperationException("Le test du nom d’équipe vide a échoué.");
+}
+
+static void TesterMatchContreSoiMeme(Equipe equipe)
+{
+    try
+    {
+        _ = equipe.JouerMatch(equipe);
+    }
+    catch (InvalidOperationException)
+    {
+        return;
+    }
+
+    throw new InvalidOperationException("Le test d’un match contre soi-même a échoué.");
 }
 
 var equipe = new Equipe(1, "Les Aigles");
@@ -146,9 +242,16 @@ foreach (Joueur joueur in autreEquipe.Joueurs)
 Console.WriteLine($"Match : {equipe.JouerMatch(autreEquipe)}");
 
 TesterAgeInvalide();
+TesterIdentifiantJoueurInvalide();
+TesterEquipeIdJoueurInvalide();
+TesterNomJoueurVide();
+TesterPrenomJoueurVide();
 TesterPosteInvalide();
 TesterButsNegatifs();
 TesterTaclesNegatifs();
 TesterJoueurDansMauvaiseEquipe(equipe, joueurAutreEquipe);
+TesterIdentifiantEquipeInvalide();
+TesterNomEquipeVide();
+TesterMatchContreSoiMeme(equipe);
 TesterJoueurBlesse();
 TesterMatchAvecJoueurBlesse(equipe, autreEquipe);
